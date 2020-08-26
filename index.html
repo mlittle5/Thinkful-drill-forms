@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!-- Name section -->
+  <form>
+    <fieldset>
+      <legend>Name and email</legend>
+      <div>
+    <label for="name">First Name</label>
+    <input id="name" type="text" name="name" autofocus="on" required placeholder="first name" />
+      </div>
+      <div>
+    <form action="https://formspree.io/xrgywgek" method="post">
+    <label for="email">Email</label>
+    <input id="email" type="text" name="email" required placeholder="email" />
+    </form>
+    </fieldset>
+  </form>
+
+<form>
+  <h2>This is for extra practice</h2>
+    <input name="color" type="radio" color="red">
+      <label for="red">Red</label><br>
+    <input name="color" type="radio" color="blue">
+      <label for="blue">Blue</label><br>
+    <input name="color" type="radio" color="green">
+      <label for="green">Green</label><br>
+    <input name="color" type="checkbox" id="foo">
+      <label for="foo">Foo</label><br>
+    <input name="color" type="checkbox" id="bar">
+      <label for="bar">Bar</label><br>
+</form>
+<form>
+  <h2>Here is a dropdown menu.</h2>
+    <select name="dropdown" sie="1">
+      <option value="option one">option one</option>
+      <option value="option two">option two</option>
+      <option value="option three">option three</option>
+    </select>
+</form>
+
+    <!-- Form seciton  -->
+<br>    
+<form>
+  <label for="form-message">Your message:</label>
+  <textarea id="form-message" name="message" required maxlength="200"></textarea>
+</form>
+<form>
+  <button type="submit">Submit</button>
+  <button type="reset">Reset</button>
+</form>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
